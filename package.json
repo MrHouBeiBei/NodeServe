@@ -1,0 +1,30 @@
+{
+  "name": "node-http-server",
+  "version": "1.0.0",
+  "description": "启动一个本地http服务器",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js",
+    "commit": "git cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrHouBeiBei/NodeServe.git"
+  },
+  "author": "Herbie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrHouBeiBei/NodeServe/issues"
+  },
+  "homepage": "https://github.com/MrHouBeiBei/NodeServe#readme",
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
