@@ -35,7 +35,7 @@ var server = http.createServer(function(req,res){
         }else{
             //成功读取文件
             res.writeHead(200,{
-                'content-type':'text/html;charset=utf-8'
+                // 'content-type':'text/html;charset=utf-8'
             });
             res.write(data);
             res.end();
